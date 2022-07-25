@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+body {
+    font-family: 'Alata', sans-serif;
+    background: white;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(31, 38, 69);
+}
+
+.topnav a {
+    font-family: 'Alata', sans-serif;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: wheat;
+    color: black;
+}
+.topnav

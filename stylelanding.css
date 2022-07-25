@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Alata', sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(31, 38, 69);
+    height: 10%;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.topnavin{
+    width: 1080px;
+    height: 100%;
+}
+
+.topnavin a {
+    font-family: 'Alata', sans-serif;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnavin a:hover {
+    background-color: wheat;
+    color: black;
+}
+
+#content1{
+    display: flex;
+    justify-content: center;
+    height: 750px;
+    background-color: rgb(177, 177, 177);
+
+}
+
+#contenta{
+    width: 1080px;
+    background-color: rgb(177, 177, 177);
+    
+}
+
+#content2{
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+}
+
+#contentb{
+    width: 1080px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+#content3{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+#contentc{
+    width: 1080px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.paket{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(159, 247, 217);
+    margin: 25px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(128, 128, 128);
+}

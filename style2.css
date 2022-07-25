@@ -1,0 +1,121 @@
+body{
+    font-family: 'Alata', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#page{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(202, 202, 202);
+}
+
+#container{
+    background-color: black;
+    width: 1092px;
+    height: 614px;
+    border-radius: 25px;
+    box-shadow: 10px 10px #575757;
+}
+
+#kiri{
+    background-color: #ffffff;
+    height: 100%;
+    width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+   
+}
+
+#kanan{
+    background-color: rgb(19,255,202);
+    height: 100%;
+    width: 50%;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#login{
+    justify-content: center;
+    align-items: center;
+    height: 96%;
+    width: 100%;
+}
+
+#close{
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#foto{
+    width: 100%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    background-color: rgb(224, 224, 224);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding-left: 22px;
+}
+
+#keterangan{
+    padding-left: 17%;
+    display: flex;
+    align-content: center;
+}
+
+#barisemail{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#barispass{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#barissub{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#barisverif{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
